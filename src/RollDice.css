@@ -1,0 +1,46 @@
+.RollDice {
+  width: 500px;
+}
+
+.RollDice-icon {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.RollDice-button {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  margin-top: 50px;
+  text-decoration: none;
+  background: #000;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+  background: plum;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+* {
+  margin: 0 auto;
+}
